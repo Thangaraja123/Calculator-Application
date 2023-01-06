@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "index.css"/>
+</head>
+<body>
+    
+    <div class = "container">
+        <h4>Calculator</h4>
+        
+        <div class = "icons">
+            <button class = "test1" id = "minimize"><i class="fa-solid fa-minus "></i></button>
+            <button class = "test2" id = "bigscreen"><i class="fal fa-square"></i></button>
+            <button class = "test3" id = "cancel"><i class="fa-solid fa-xmark "></i></button>    
+         
+      </div>
+                   <div class = "menu1">
+                     <button class = "test4" id = "bars"><i class="fas fa-bars"></i></button>
+                      <input class = "names" id = "name" type = "text"/>
+                   <div class = "test6">
+                      <button  id = "arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                      <button  id = "clock"><i class="fa-solid fa-clock-rotate-left"></i></button>
+                 </div>
+
+                 <div class = "currency">
+                    <input id = "one" type = "text" placeholder="0"/>
+                    <button class = "first"><i class="fa-solid fa-dollar-sign"></i>
+                      <select id="framework">
+                        <option id = "america" value="1">United States-Doller</option>
+                        <option id = "iran" value="2">Iran-Rial</option>
+                        <option value="3">Bahrain-Dinar</option>
+                        <option value="4">Belize-Doller</option>
+                    </select>
+                    </button>
+                    <input  id = "two" type = "text" placeholder="0" />
+                    <button class = "second"><i class="fa fa-inr" aria-hidden="true"></i>Indian-Rubee<i class="fa-solid fa-angle-down"></i></button>
+                    
+                    
+                    <div class = "tables1" id = "table">
+                      <table>
+
+                        <tr> 
+                          <td><button class = "btn-number1" id = "modules">%</button></td>
+                          <td><button class = "btn-number1" id = "clear3">C</button></td>
+                          <td><button class = "btn-number1" id = "clear3">CE</button></td>
+                          <td><button class = "btn-number1" id = "backspace"><i class="fa-solid fa-delete-left"></i></button></td>
+                        </tr>
+                        <tr>
+                          <td><button class = "btn-number1" id = "Number">&#49;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#50;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#51;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#52;</button></td>
+                        </tr>
+  
+                        <tr>
+                          <td><button class = "btn-number1" id = "Number">&#53;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#54;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#55;</button></td>
+                          <td><button class = "btn-number1" id = "Number">&#56;</button></td>
+                             
+  
+                        </tr>
+                        <td><button class = "btn-number1" id = "Number">&#57;</button></td>
+                        <td><button class = "btn-number1" id = "Number">&#48;</button></td>
+                        <td><button class = "btn-number1" id = "Number">&#46;</button></td>
+                        <td><button class = "btn-number1" id = "Number">&#61;</button></td>
+                        
+
+                        <tr>
+
+                        </tr>
+                        
+                      </table>
+                        
+                      
+                    </div>
+                    
+                 </div>
+               
+      </div>
+      <div class = "bar-icon">
+        <ul class = "nav">
+          <h4>Calculator</h4>
+          <button id = "standard"><li><i class="fa-solid fa-calculator"></i>Standard</li></button>
+          <button ><li><i class="fa-solid fa-flask"></i>Scientific</li></button>
+          <button><li><i class="fas fa-chart-bar"></i>Graphing</li></button>
+          <button><li><i class="fas fa-code"></i>Programmer</li></button>
+          <button id = "date"><li><i class="fa-solid fa-calendar-days"></i>Date Calculation</li></button>
+          <h4>Converter</h4>
+          <button id = "currency"><li><i class="fa-solid fa-dollar-sign"></i>Currency</li></button>
+          <button id = "time"><li><i class="fa-solid fa-clock"></i>Time</li></button>
+          <button><li><i class="fa-solid fa-ruler"></i>length</li></button>
+          <button><li><i class="fa-solid fa-temperature-half"></i>Temperature</li></button>
+          <button><li><i class="fa-solid fa-fire-flame-curved"></i> Energy</li> </button>
+          <button><li><i class="fa-solid fa-fire-flame-curved"></i>Data</li></button>
+          <button><li><i class="fa-solid fa-fire-flame-curved"></i>Power</li></button>
+          <button><li><i class="fa-solid fa-fire-flame-curved"></i>Area</li></button>
+          
+          
+
+        </ul> 
+
+      </div>
+
+                 
+                <div class = "stores" >
+                  <input id = "store" type = "text"/>
+                </div>
+              <div class="inputs">
+                
+                  <input id = "input" type = "text" placeholder="0"/>
+              </div>
+            <form class = "lists" id = formss>
+
+                     <div class = "tables" id = "table">
+                          <div class = "top">
+                               <button class = "button-top" id = "top1">MC</button>
+                               <button class = "button-top" id = "top2">MR</button>
+                               <button class = "button-top" id = "top3">M+</button>
+                               <button class = "button-top" id = "top4">M-</button>
+                               <button class = "button-top" id = "top5">MS</button>
+                               <button class = "button-top" id = "top6">M</button>
+                          </div>
+
+                          
+
+                          <table>
+                            <tr>
+                              <td><button class = "operator" id = "modules">%</button></td>
+                              <td><button class = "clear" id = "clear">CE</button></td>
+                              <td><button class = "clear1" id = "clear">C</button></td>
+                              <td><button class = "backspace" id = "backspace"><i class="fa-solid fa-delete-left"></i></button></td> 
+                            </tr>
+                            <tr>
+                                 <td><button class = "byx" id = "byx">1&frasl;<sub>x</sub></button></td>
+                                 <td><button class = "square" id = "square">x&#178;</button></td>
+                                 <td><button class = "root" id = "root">&#8730;x</button></td>
+                                 <td><button class = "operator" id = "divison">&#247;</button></td>
+                            </tr>
+  
+                            <tr>
+                              <td><button class = "btn-number" id = "Number">&#49;</button></td>
+                              <td><button class = "btn-number" id = "Number">&#50;</button></td>
+                              <td><button class = "btn-number" id = "Number">&#51;</button></td>
+                              <td><button class = "operator" id = "multiple">&#215;</button></td>
+                            </tr> 
+  
+                            <tr>
+                             <td><button class = "btn-number" id = "Number">&#52;</button></td>
+                             <td><button class = "btn-number" id = "Number">&#53;</button></td>
+                             <td><button class = "btn-number" id = "Number">&#54;</button></td>
+                              <td><button class = "operator" id = "minus">&#8722;</button></td>
+                            </tr>
+  
+                           <tr>
+                              <td><button class = "btn-number" id = "Number">&#55;</button></td>
+                              <td><button class = "btn-number" id = "Number">&#56;</button></td>
+                              <td><button class = "btn-number" id = "Number">&#57;</button></td>
+                               <td><button class = "operator" id = "sum">&#43;</button></td> 
+                           </tr>
+  
+                            <tr>
+                               <td><button class = "btn-number" id = "Plusminus">&#177;</button></td>
+                               <td><button class = "btn-number" id = "Number">&#48;</button></td>
+                               <td><button class = "btn-number" id = "dot">&#46;</button></td>
+                               <td><button class = "Equal" id = "Equal">&#61;</button></td> 
+                            </tr>
+       
+                         </table>
+                    </div>
+                   </form>            
+    </div>
+
+                  
+    
+  </div>
+
+ <script src = "index.js"></script>
+</body>
+</html>

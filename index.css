@@ -1,0 +1,416 @@
+body{
+
+    
+    background-color: #595E60;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding :100px;
+     position: fixed;
+ }
+
+
+ 
+ .icons{
+ 
+     margin-left: 170px;
+     margin-top: -35px;
+ }
+ 
+ .icons button{
+ margin: 0 10px;
+ background-color:gray;
+ border: 0;
+ }
+ 
+ .menu1 button{
+     background-color: gray;
+     border: 0;
+ }
+ 
+ 
+.menu1 .test4{
+    
+     margin-left: 10px;
+     margin-top: 30px;
+     
+ }
+ 
+ 
+ .test5 {
+ 
+     margin-top: -20px;
+     margin-left: 50px;
+     font-size: large;
+     font-weight: bold;
+     font-family: sans-serif;
+  
+ }
+ 
+ 
+  .menu1 .test6{
+     margin-left:215px ;
+     margin-top: -20px;
+    }
+ 
+  .menu1 .test6 button{
+ 
+     margin: 0 10px;
+     background-color: gray;
+     border: 0;
+  }
+ 
+  
+  
+ 
+ .test1:hover{
+     background-color: #ccccff;
+     border: none;
+ }
+ 
+ .test2:hover{
+ 
+     background-color: #ccccff;
+     border: none;
+ 
+ }
+ 
+ .test3:hover{
+     background-color: red;
+     border: none;
+ }
+ 
+ .test4:hover{
+     background-color: #ccccff;
+     border: none;
+ }
+ 
+ .test6 button:hover{
+     background-color: #ccccff;
+     border: none;
+ }
+ .container{
+ 
+     background-color: gray;
+     border-style: inset;
+     margin-left: 300px;
+     margin-top: -80px;
+     
+ }
+ 
+ .container h4{
+ 
+     font-family: sans-serif;
+     font-weight: lighter;
+     font-size: small;
+     margin-left: 10px;
+ }
+ 
+ 
+ .tables .button-top{
+ 
+     width: 48px;
+     height: 30px;
+     margin-left: 1.2px;
+     border: none;
+ }
+ .tables .operator{
+ 
+     width: 75px;
+     height: 50px;
+     font-size: larger;
+     background-color: #ccccff;
+     border: none;
+ }
+ 
+ .clear{
+
+    width: 75px;
+    height: 50px;
+    background-color:#ccccff ;
+    border: none;
+ }
+
+ .clear1{
+    width: 75px;
+    height: 50px;
+    background-color: #ccccff;
+    border: none;
+ }
+ .clear1:hover{
+    background-color: lightblue ;
+ }
+
+ .clear:hover{
+    background-color: lightblue;
+ }
+ .tables .btn-number{
+ 
+     width: 75px;
+     height: 50px;
+     font-size: larger;
+     background-color: white;
+     border: none;
+ 
+ }
+
+.byx{
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    background-color: white;
+    border: none;
+}
+
+.byx:hover{
+    background-color: gray;
+}
+
+.square{
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    background-color: white;
+    border: none;
+}
+
+.square:hover{
+    background-color: gray;
+}
+
+.root{
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    background-color: white;
+    border: none;
+}
+
+.root:hover{
+    background-color: gray;
+}
+ .tables1 .btn-number1{
+    width: 72.4px;
+     height: 50px;
+     font-size: larger;
+     background-color: white;
+     border: none;
+ 
+ }
+ 
+ .backspace{
+
+    width: 75px;
+    height: 50px;
+    background-color: #ccccff;
+    border: none;
+ }
+
+ .Equal{
+
+    width: 75px;
+    height: 50px;
+    background-color: #ccccff;
+    border: none;
+ }
+
+
+
+ .Equal:hover{
+    background-color: lightblue;
+ }
+ .backspace:hover{
+    background-color: lightblue;
+ }
+ 
+ .tables .operator:hover{
+ 
+     background-color: lightblue;
+ }
+
+ .tables1 .btn-number1:hover{
+    background-color: lightblue;
+ }
+
+ .tables1 .clear3:hover{
+    background-color:lightblue;
+ }
+ 
+ .tables {
+ margin-top: 10px;
+ }
+
+ .tables1{
+    margin-top: 70px;
+ }
+ 
+ .tables .top button{
+     background-color: gray;
+     border: 0;
+ }
+ 
+ .tables .button-top:hover{
+ 
+ background-color: #ccccff;
+ }
+ 
+ .tables .btn-number:hover{
+ 
+     background-color: gray;
+ }
+ 
+ .inputs{
+ 
+     margin-top: 15px;
+ }
+ 
+ 
+ .inputs input{
+     height: 40px;
+     width: 310px;
+     background-color: gray;
+     border: none;
+     text-align: end;
+     font-size: 40px;
+    
+ 
+ }
+ 
+ .inputs input:hover {
+     border: 0;
+ }
+ 
+ ::placeholder{
+     color: black;
+ }
+
+.stores{
+
+    margin-top: 35px;
+}
+
+.stores input{
+
+    height: 20px;
+    width: 310px;
+    text-align: end;
+    font-size: 25px;
+    background-color: gray;
+    border: none;    
+}
+
+.stores input:hover{
+    border: 0;
+}
+
+.bar-icon{
+
+    background-color:gray;
+}
+
+.bar-icon ul{
+    list-style-type: none;
+    background-color: gray;
+    width: 120px;
+    display: none;
+    position: fixed;
+}
+
+
+
+.bar-icon ul button{
+
+    margin: 2px -38px;
+    display: block;
+    width: 155px;
+    height: 35px;
+    background-color: gray;
+    border: none;
+    
+}
+
+.bar-icon ul h4{
+
+    margin-left: -37px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.bar-icon ul button li{
+
+    text-align: left;
+}
+
+.bar-icon ul button li i{
+
+    width: 15px;
+}
+
+.bar-icon button:hover{
+
+    background-color: lightblue;
+
+}
+
+.currency{
+    position: fixed;
+    display: none;
+    background-color: gray;
+    border: inset;
+    border-top: none;
+    margin-left: -3px;
+
+}
+
+.names {
+    text-align: center;
+    width: 100px;
+    font-size: large;
+    margin-left: 40px;
+    margin-top: -70px;
+    font-weight: bold;
+    background-color: gray;
+    border: none;
+}
+
+.currency input{
+    display: block;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    background-color: gray;
+    border: none;
+    margin: 20px 0;
+}
+
+.currency input::placeholder{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.currency button i{
+
+    width: 20px;
+    
+}
+
+.currency .tables1 .clear3{
+    width: 75px;
+    height: 50px;
+    background-color: white;
+}
+    
+#framework{
+    background-color: gray;
+    border: none;
+}
+
+.bar-icon ul{
+    overflow: scroll;
+    height: 470px;
+    
+    
+}
